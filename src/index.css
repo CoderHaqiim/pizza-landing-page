@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+@import "tailwindcss";
+
+*{
+  box-sizing:border-box;
+}
+
+@theme {
+  --font-rubik:  "Rubik Distressed", system-ui;
+  --font-freckle: "Freckle Face", system-ui;
+}
+
+body{
+  width:100%;
+  height:max-content;
+}
+
+*::-webkit-scrollbar{
+  width:0;
+  height:0;
+}
+
+a{
+  text-decoration:underline;
+  color:#E6790A;
+}
+
+.button::after{
+  content: "";
+  height:105%;
+  width:105%;
+  position:absolute;
+  display:none;
+  border-radius:8px;
+  background:linear-gradient(90deg, #11111115, transparent,#11111115 );
+}
+
+.button:hover::after, .button2:hover::after{
+  display: flex;
+}
