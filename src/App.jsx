@@ -86,13 +86,13 @@ function App() {
             <Header2 text="Why Choose Us" color="#111111"/>
             <div className="flex w-full flex-wrap justify-center align-center gap-3 lg:gap-5">
               <TrustCard text="Fresh Ingredients">
-                <Paragraph variant="small" color="#555555" text="Only the best locally sourced produce and premium cheeses"/>
+                <Paragraph variant="small" color="#555555" align="center" text="Only the best locally sourced produce and premium cheeses"/>
               </TrustCard>
               <TrustCard text="Authentic Recipes">
-                <Paragraph variant="small" color="#555555" text="Traditional dough, slow-risen and stone-baked"/>
+                <Paragraph variant="small" color="#555555" align="center" text="Traditional dough, slow-risen and stone-baked"/>
               </TrustCard>
               <TrustCard text="Fast Delivery">
-                <Paragraph variant="small" color="#555555" text="Hot pizza delivered in 30 minutes or less"/>
+                <Paragraph variant="small" color="#555555" align="center" text="Hot pizza delivered in 30 minutes or less"/>
               </TrustCard>
               <TrustCard text="Combo Deals">
                 <Paragraph align="center" variant="small" color="#555555" text="Perfect pairings with drinks and sides"/>
